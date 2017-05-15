@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>各种各样的下拉菜单</title>
+    <style type="text/css">
+      *{ margin:0px; padding:0px;}
+      #nav  { background-color:#eee; width:600px; height:40px; margin:0 auto;}
+      ul{ list-style:none;}
+      ul li{ float:left;  line-height:40px; text-align:center; position:relative;}
+      a{ text-decoration:none; color:#000;display:block; padding: 0 10px;}
+      a:hover{ color:#fff;background:#666;}
+      ul li ul li{ float:none; background-color:#eee; margin-top:2px;}
+      ul li ul{ position:absolute; left:0px; top:40px; display:none;}
+      ul li ul li a:hover{ background-color:#06f;}
+      ul li:hover ul{ display:block;}
+    </style>
+  </head>
+  <body>
+    <div id="nav">
+      <ul>
+        <li><a href="#">首页</a></li>
+        <li><a href="#">课程大厅</a>
+          <ul>
+            <li><a href="#">JavaScript</a></li>
+            <li><a href="#">jQuery</a></li>
+          </ul>
+        </li>
+        <li><a href="#">学习中心</a>
+          <ul>
+            <li><a href="#">JavaScript</a></li>
+            <li><a href="#">jQuery</a></li>
+          </ul>
+          </li>
+        <li><a href="#">经典案例</a>
+          <ul>
+            <li><a href="#">JavaScript</a></li>
+            <li><a href="#">jQuery</a></li>
+          </ul>
+          </li>
+        <li><a href="#">关于我们</a>
+          <ul>
+            <li><a href="#">JavaScript</a></li>
+            <li><a href="#">jQuery</a></li>
+          </ul>
+          </li>
+      </ul>
+    </div>
+  </body>
+</html>
+
